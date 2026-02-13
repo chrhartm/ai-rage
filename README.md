@@ -57,7 +57,7 @@ Yes, insulting your AI can lead to better outcomes, but you know what can lead t
 Update your agents.md regularly with behaviors you want to see. Document thoroughly. Structure your project well. Make it easy for the AI to not have to ask.
 
 ### Emotional regulation
-Let's face it: It's not the AI who is the problem. I am. It's my emotions, and I am responsible for them. What helps with that? Breathing exercises, taking regular breaks, putting on chill music, not having unrealistic deadlines, not over-caffinating, doing exercise, seeing friends, all the good stuff.
+Let's face it: It's not the AI who is the problem. I am. It's my emotions, and I am responsible for them. What helps with that? Breathing exercises, taking regular breaks, putting on chill music, not having unrealistic deadlines, not over-caffinating, doing exercise, seeing friends, all the good stuff. See [this post](https://euzoia.substack.com/p/emotional-regulation-mind) for example.
 
 ### Empathy with the AI
 In general, accept the key limitations of AI, namely: They start from scratch every single time without any context and they always read the full conversation before answering your next message.
@@ -82,6 +82,6 @@ I thought about this for a while but it only ever helped for a few days. So I wr
 ## About me
 
 * I work with AI to develop [DoneThat](https://donethat.ai) - an AI that automatically tracks your work
-* I write about the good life at [Euzoia](https://euzoia.org), including a recent article on emotional regulation
+* I write about the good life at [Euzoia](https://euzoia.org), including a recent article on [emotional regulation](https://euzoia.substack.com/p/emotional-regulation-mind)
 * I'm also on [LinkedIn](https://linkedin.com/in/hartmannchristoph), not on x. I know.
 * I tried to write this article with AI and got angry, so this is 100% human written
