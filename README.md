@@ -1,9 +1,5 @@
 # AI rage
 
-## Context
-
-### Example
-
 A recent example of my conversation with AI:
 
 > ARE YOU F****** KIDDING ME
@@ -24,43 +20,94 @@ But then somehow ten messages later I am raging. Why is that?
 
 I did some sanity checks. Turns out I'm not an abusive psychopath (I think). Lots of other people reporting this
 
-* [I've been insulting AI every day](https://www.reddit.com/r/ClaudeCode/comments/1qvunta/ive_been_insulting_ai_every_day_and_calling_the/_)
-* [I can't stop yelling at claude code (blog)](https://www.theargumentmag.com/p/i-cant-stop-yelling-at-claude-code)
-* [AI rage](https://www.reddit.com/r/ArtificialInteligence/comments/1p3xbqu/ai_rage/)
+[I've been insulting AI every day (reddit)](https://www.reddit.com/r/ClaudeCode/comments/1qvunta/ive_been_insulting_ai_every_day_and_calling_the/_), [I can't stop yelling at claude code (blog)](https://www.theargumentmag.com/p/i-cant-stop-yelling-at-claude-code), [AI rage (reddit)](https://www.reddit.com/r/ArtificialInteligence/comments/1p3xbqu/ai_rage/), [Some good profanity screenshots (x)](https://x.com/clankercode/status/2021008792801177776), [Claude code = worst intern ever (x)](https://x.com/Grady_Booch/status/2016619898282414417), [This is not fun anymore (x)](https://x.com/MarcJSchmidt/status/2018272989788193124), "Opus 4.6 was gaslighting me today" - Random sales call I was on today
 
 ## Causes
 
-Why are managers rude to their employees? I think the same mechanisms apply here, just without the social norms and with even less competent employees.
+I don't want to be angry. I know it's not helping. Yet here I am. Why does this keep happening? I think a reasonable analogy are managers getting mad at employees. Most probably don't enjoy it and still they do it. I think the same mechanisms apply here, just without the social norms and with even less competent employees.
 
 ### Learnt behavior
-Pressuring employees can lead to short-term gains. The problem with AI: They are only ever short term and have no long-term memory. So insulting always works. When something always works we slowly learn to do. Reinforcement learning at it's best. Some sources: [A 2025 study that shows insulting leads to 10% higher accuracy](https://www.arxiv.org/pdf/2510.04950)
 
-### False promises
-Remember how Sam Altman said we'd get [PhD Level Intelligence](https://www.bbc.com/news/articles/cy5prvgw0r1o). I assume a PhD level person is able to [center a div](https://x.com/matthewesp/status/2020930777802809473) without five tries. You read everybody talking about how they one-shot-vibe-coded a browser from scratch and you wonder what's wrong with you that you can't get your AI to move a button to the right.
-
-### Stress
-Your manager is most abusive when under pressure, same applies here. When you are under pressure to fix something and AI makes stupid mistakes you'll be less forgiving. // evidence on ego-depletion from lots of decision making
-
-### Assumed shared context
-You know that manger that just assumes you know what they know? Have the skills they have? Magically can read their mind? The same happens with AIs, just on steroids. Employees learn every day. Agents never learn. I notice that I get especially agnry
+Pressuring employees can lead to short-term gains. The problem with AI: They are only ever short term and have no long-term memory. So insulting always works. When something always works we slowly learn to do it. Reinforcement learning at it's best. Some sources: [A 2025 study that shows insulting leads to 10% higher accuracy](https://www.arxiv.org/pdf/2510.04950) [Another one](https://www.ijcai.org/proceedings/2024/0719.pdf) [And one more](https://arxiv.org/abs/2409.17167)
 
 ### Anthropomorphism
-Similar to shared context but now 
+
+You know that manger that just assumes you know what they know? Have the skills they have? Magically can read their mind? The same happens with AIs, just on steroids. Employees learn every day. Agents never learn. I notice that I get especially agnry when the AI makes similar mistakes multiple times.
+
+### Unrealistic expectations
+
+Probable one of the most common reasons managers get angry: They expect more of their employees than they deliver. Remember how Sam Altman said we'd get [PhD Level Intelligence](https://www.bbc.com/news/articles/cy5prvgw0r1o). I assume a PhD level person has memory that spans more than five minutes. You see everybody talking about how they one-shot-vibe-coded a browser from scratch and you wonder what's wrong with you that you can't get your AI to move a button to the right.
+
+### Stress
+
+Your manager is most abusive when under pressure, same applies here. When you are under pressure to fix something and AI makes stupid mistakes you'll be less forgiving. Managers get more emotional the longer the day is and the more their willpower is depleted from tons of reviewing and decision making. It's the same with AIs.
 
 ## Fixes
 
-### Learning better behavior
-Yes, insulting your AI can lead to better outcomes, but you know what can lead to even better outcomes? Applying best practices.
-...
-
-### Share context
-Update your agents.md regularly with behaviors you want to see. Document thoroughly. Structure your project well. Make it easy for the AI to not have to ask.
-
-### Emotional regulation
-Let's face it: It's not the AI who is the problem. I am. It's my emotions, and I am responsible for them. What helps with that? Breathing exercises, taking regular breaks, putting on chill music, not having unrealistic deadlines, not over-caffinating, doing exercise, seeing friends, all the good stuff. See [this post](https://euzoia.substack.com/p/emotional-regulation-mind) for example.
+Yes, insulting your AI can lead to better outcomes, but you know what can lead to even better outcomes?
 
 ### Empathy with the AI
-In general, accept the key limitations of AI, namely: They start from scratch every single time without any context and they always read the full conversation before answering your next message.
+
+In general, accept the key limitations of AI, namely:
+* They start from scratch every single time without any context and they always read the full conversation before answering your next message.
+* They are trained to be an eager yes-man, always wanting to run off and code something, barely questioning anything.
+* They work best on standard and average use cases and will always suggest the average.
+* They will always take the fastest path
+
+Internalize them and don't hope for anything else.
+
+![image](https://ferd.ca/static/img/llm-as-its-own-mcp-server.jpg)
+Image from [this great article](https://ferd.ca/the-gap-through-which-we-praise-the-machine.html) on agenting programming
+
+### Care for your AI
+
+Imagine you'd be an AI waking up without any sense of orientation and having to code a random thing. You'll be grateful for context. Give that context
+* Have a good AGENTS.md. Agent doing something stupid? Ask it to update AGENTS.md to do it better next time
+* Choose standard average technology. They know it best.
+* Choose standard average designs. Otherways you'll always have to push them back.
+* Structure your project well. Trust your AIs choices because those will be the places it'll intuitively look in.
+* Name your files and variables with meaningful names. The names suggested by the AI will be the one it'll intuitively look for.
+* Document thoroughly. Finished with a task? Ask your AI to write documentation.
+* Avoid complexity. Always challenge AIs for simplicity. Done with a task? Ask your AI to do the same thing but easier. Refactor.
+* Automate tests and security reviews. It's never been easier to write tests, ask your AI to do it.
+
+* Split large tasks into small ones: Prompt it to have a todo list and keep track of stuff.
+
+Basically: Do anything you'd do as best practice anyway. Because we developed those techniques for the limited context window of humans. We just need to do it even more thoroghly now.
+
+### Question if you need AI
+
+If the above feels like a lot of work, then that's because it is a lot of work. In many cases you might not actually need it. I tend to get especially angry when it makes trivial things way too complex. The obvious solution? If it's so trivial, just do it yourself. It's fun.
+
+### Never trust your AI
+
+* Always challenge the design. The fastest is rarely the most maintainable and most secure and most scalable.
+* Force it to think and to plan. Stop the yes-man.
+* Ask it to show you docs/read docs. Especially for external APIs.
+* Always review the code. There is no way around this - if you stop understanding it you can't guide the AIs anymore.
+* Never code with low willpower. If you're a yes-man managing a yes-man bad things will happen.
+
+
+### Acknowldge misaligned incentives
+
+For the longest time I didn't want to do any of this because I felt 'Cursor/Claude/... will just figure this out', how hard can it be. But there is a fundamental incentive issue here - they all have incentives to maximize your token usage, so short conversations or targeted contexts aren't much incentivised. Bigger context windows, running many agents in parallel hoping one will get it right, and long-running agents that don't ask for feedback and run into rabbit holes are.
+
+We don't pay per solution but per token. The classic output vs outcome issue that we already have in most workplaces. Except now paired with a [one-armed bandid](https://puddingtime.org/the-one-armed-bandit).
+
+
+### Don't blame yourself
+
+How do you sell unrealistic outcomes? You promise the outcomes if and only if the user follows a set of impossible-to-adhere-to things. Then when the user doesn't do the things, you blame the user. Or even better: Have the user blame themselves. It works for six-weeks-to-sixpack diet plans, astral projections, and vibe coding:
+
+If and only if you document, structure, prompt-engineer, context-engineer, plan, distribute, review, restart, then, and only then, you too can have one of those one-in-a-million chance outcomes where you can successfully one-shot a browser from scratch. Why do those things get so much traction on social media? Because they are so rare. We were promised PhD level intelligence. This isn't PhD level intelligence.
+
+Don't blame yourself. Don't blame the AI. Don't blame the system. Maybe sit back and marvel at this magical thing that is both so intelligent and so dumb at the same time.
+
+### Emotional regulation
+
+Let's face it: It's not the AI who is the problem. I am. Even with all those best practices it'll do stupid stuff all the time. I tried.
+
+In the end it's my emotions, and I am responsible for them. What helps with that? Breathing exercises, taking regular breaks, putting on chill music, not having unrealistic deadlines, not over-caffinating, doing exercise, seeing friends, all the good stuff. See [this post](https://euzoia.substack.com/p/emotional-regulation-mind) for example.
 
 ## Let your AI coach you
 
@@ -76,12 +123,13 @@ I thought about this for a while but it only ever helped for a few days. So I wr
 2. Remind the user of your own limitations, specifically only seeing what's in context and getting overwhelmed by too long context
 3. Suggest to summarize the conversation now and start a new one with that summary in case the anger relates to a technical issue
 4. Suggest to add a note to AGENTS.md in case the anger relates to a behavior
-5. In any case, suggest to take a break, take a minute of deep breaths, go for a walk, and put on chill music
+5. Suggest to just give it a try yourself, especially if the user seems to think it's easy
+6. In any case, suggest to take a break, take a minute of deep breaths, go for a walk, and put on chill music
 ```
 
 ## About me
 
-* I work with AI to develop [DoneThat](https://donethat.ai) - an AI that automatically tracks your work
-* I write about the good life at [Euzoia](https://euzoia.org), including a recent article on [emotional regulation](https://euzoia.substack.com/p/emotional-regulation-mind)
-* I'm also on [LinkedIn](https://linkedin.com/in/hartmannchristoph), not on x. I know.
-* I tried to write this article with AI and got angry, so this is 100% human written
+* I work with AI to develop [DoneThat](https://donethat.ai) - an AI that automatically tracks your work. It can also proactively intervene, for example to tell you to take a break when it sees you arguing wiht your AI.
+* I write about the good life at [Euzoia](https://euzoia.org), including a recent article on [emotional regulation](https://euzoia.substack.com/p/emotional-regulation-mind).
+* I'm also on [LinkedIn](https://linkedin.com/in/hartmannchristoph), not on x. Too late.
+* I tried to write this article with AI and got angry, so this was 100% human written, sorry for the typos.
