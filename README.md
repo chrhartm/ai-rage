@@ -48,20 +48,22 @@ Yes, insulting your AI can lead to better outcomes, but you know what can lead t
 
 ### Empathy with the AI
 
-In general, accept the key limitations of AI, namely:
-* They start from scratch every single time without any context and they always read the full conversation before answering your next message.
-* They are trained to be an eager yes-man, always wanting to run off and code something, barely questioning anything.
-* They work best on standard and average use cases and will always suggest the average.
-* They will always take the fastest path
-
-Internalize them and don't hope for anything else.
-
 ![image](https://ferd.ca/static/img/llm-as-its-own-mcp-server.jpg)
 Image from [this great article](https://ferd.ca/the-gap-through-which-we-praise-the-machine.html) on agenting programming
 
+In general, accept the key limitations of AI, namely:
+* They start from scratch every single time without any context and they always read the full conversation before answering your next message.
+* They have been trained to always take the fastest path because their context window is limited.
+* Because of this they are also an eager yes-man just wanted to push forward without questioning.
+* They work best on standard and average use cases and will always suggest the average.
+
+Internalize them and don't hope for anything else.
+
 ### Care for your AI
 
-Imagine you'd be an AI waking up without any sense of orientation and having to code a random thing. You'll be grateful for context. Give that context
+![image](memento.png)
+
+Imagine yourself waking up in a room. No orientation. Only endless cabinets of code, badly labeled. And somebody shouting at you "center the div". Some instinct is telling you that you only have 10 minutes to live before you forget again so you better be quick. But which div? Where to even start looking? This feels a lot like Memento, so be kind to your agent, give them some tattoos to start with:
 * Have a good AGENTS.md. Agent doing something stupid? Ask it to update AGENTS.md to do it better next time
 * Choose standard average technology. They know it best.
 * Choose standard average designs. Otherways you'll always have to push them back.
