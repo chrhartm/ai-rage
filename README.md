@@ -72,6 +72,7 @@ Imagine yourself waking up in a room. No orientation. Only endless cabinets of c
 * Document thoroughly. Finished with a task? Ask your AI to write documentation.
 * Avoid complexity. Always challenge AIs for simplicity. Done with a task? Ask your AI to do the same thing but easier. Refactor.
 * Automate tests and security reviews. It's never been easier to write tests, ask your AI to do it.
+* Use branches. Two agents working simultaneously on the same codebase will be even worse than two developers.
 
 * Split large tasks into small ones: Prompt it to have a todo list and keep track of stuff.
 
