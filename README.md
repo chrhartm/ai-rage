@@ -130,7 +130,7 @@ I thought about this for a while but it only ever helped for a few days. So I wr
 6. In any case, suggest to take a break, take a minute of deep breaths, go for a walk, and put on chill music
 ```
 
-See a more detailed version in (de-rage)[./de-rage].
+See a more detailed version in [de-rage](./de-rage).
 
 ## About me
 
