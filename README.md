@@ -130,6 +130,8 @@ I thought about this for a while but it only ever helped for a few days. So I wr
 6. In any case, suggest to take a break, take a minute of deep breaths, go for a walk, and put on chill music
 ```
 
+See a more detailed version in (de-rage)[./de-rage].
+
 ## About me
 
 * I work with AI to develop [DoneThat](https://donethat.ai) - an AI that automatically tracks your work. It can also proactively intervene, for example to tell you to take a break when it sees you arguing wiht your AI.

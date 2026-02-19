@@ -1,0 +1,6 @@
+interface:
+  display_name: "De-Rage"
+  short_description: "Deescalate your AI rage when your agent rubbing you the wrong way"
+  icon_small: "./assets/deescalate-small.svg"
+  icon_large: "./assets/deescalate-large.svg"
+  default_prompt: "Use $de-rage to defuse frustration and abusive language."
