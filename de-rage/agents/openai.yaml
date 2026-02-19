@@ -4,3 +4,5 @@ interface:
   icon_small: "./assets/deescalate-small.svg"
   icon_large: "./assets/deescalate-large.svg"
   default_prompt: "Use $de-rage to defuse frustration and abusive language."
+policy:
+  allow_implicit_invocation: true
