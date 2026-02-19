@@ -2,8 +2,7 @@
 
 A recent example of my conversation with AI:
 
-> ARE YOU F****** KIDDING ME
-memories.ts#L655-703
+> ARE YOU F****** KIDDING ME memories.ts#L655-703
 > WHY DOES THIS FUNCTION STILL EXIST
 > 
 > AGAIN
@@ -16,27 +15,37 @@ It all started out calm and peacefully
 
 But then somehow ten messages later I am raging. Why is that?
 
-### I am not alone
+### I don't think it's just me
 
-I did some sanity checks. Turns out I'm not an abusive psychopath (I think). Lots of other people reporting this
+I used to manage lots of people. I never felt anger. Despair, sometimes, but never anger.
+
+So I did some sanity checks. Turns out I'm not an abusive psychopath (I think). Lots of other people reporting this
 
 [I've been insulting AI every day (reddit)](https://www.reddit.com/r/ClaudeCode/comments/1qvunta/ive_been_insulting_ai_every_day_and_calling_the/_), [I can't stop yelling at claude code (blog)](https://www.theargumentmag.com/p/i-cant-stop-yelling-at-claude-code), [AI rage (reddit)](https://www.reddit.com/r/ArtificialInteligence/comments/1p3xbqu/ai_rage/), [Some good profanity screenshots (x)](https://x.com/clankercode/status/2021008792801177776), [Claude code = worst intern ever (x)](https://x.com/Grady_Booch/status/2016619898282414417), [This is not fun anymore (x)](https://x.com/MarcJSchmidt/status/2018272989788193124), "Opus 4.6 was gaslighting me today" - Random sales call I was on today
 
+I am experiencing this with claude code, cursor, codex, antigravity. Some work better sometimes but I eventually get angry with all of them.
+
 ## Causes
 
-I don't want to be angry. I know it's not helping. Yet here I am. Why does this keep happening? I think a reasonable analogy are managers getting mad at employees. Most probably don't enjoy it and still they do it. I think the same mechanisms apply here, just without the social norms and with even less competent employees.
+[!image](assets/viberage.webp)
+
+I don't want to be angry. I know it's not helping. Yet here I am. Why does this keep happening? I think a reasonable analogy are managers getting mad at employees. Most managers probably don't enjoy it and still they do it. I think the same mechanisms apply here, just without the social norms and with even less competent employees.
 
 ### Learnt behavior
 
 Pressuring employees can lead to short-term gains. The problem with AI: They are only ever short term and have no long-term memory. So insulting always works. When something always works we slowly learn to do it. Reinforcement learning at it's best. Some sources: [A 2025 study that shows insulting leads to 10% higher accuracy](https://www.arxiv.org/pdf/2510.04950) [Another one](https://www.ijcai.org/proceedings/2024/0719.pdf) [And one more](https://arxiv.org/abs/2409.17167)
 
-### Anthropomorphism
+### Assumed context
 
 You know that manger that just assumes you know what they know? Have the skills they have? Magically can read their mind? The same happens with AIs, just on steroids. Employees learn every day. Agents never learn. I notice that I get especially agnry when the AI makes similar mistakes multiple times.
 
+### Assumed learning
+
+When a manager gets angry they are implicitly hoping that by using emotions they'll get their employee to learn and not do it again next time. Emotions are reinforcement signals. But agents never learn. We anthropomorphize the agent and get angry without the hoped effect.
+
 ### Unrealistic expectations
 
-Probable one of the most common reasons managers get angry: They expect more of their employees than they deliver. Remember how Sam Altman said we'd get [PhD Level Intelligence](https://www.bbc.com/news/articles/cy5prvgw0r1o). I assume a PhD level person has memory that spans more than five minutes. You see everybody talking about how they one-shot-vibe-coded a browser from scratch and you wonder what's wrong with you that you can't get your AI to move a button to the right.
+Probably one of the most common reasons managers get angry: They expect more of their employees than they deliver. Remember how Sam Altman said we'd get [PhD Level Intelligence](https://www.bbc.com/news/articles/cy5prvgw0r1o). I assume a PhD level person has memory that spans more than five minutes. You see everybody talking about how they one-shot-vibe-coded a browser from scratch and you wonder what's wrong with you that you can't get your AI to move a button to the right.
 
 ### Stress
 
@@ -46,12 +55,12 @@ Your manager is most abusive when under pressure, same applies here. When you ar
 
 Yes, insulting your AI can lead to better outcomes, but you know what can lead to even better outcomes?
 
-### Empathy with the AI
+### Understand AI
 
 ![image](https://ferd.ca/static/img/llm-as-its-own-mcp-server.jpg)
 Image from [this great article](https://ferd.ca/the-gap-through-which-we-praise-the-machine.html) on agenting programming
 
-In general, accept the key limitations of AI, namely:
+Accept the key limitations of AI, namely:
 * They start from scratch every single time without any context and they always read the full conversation before answering your next message.
 * They have been trained to always take the fastest path because their context window is limited.
 * Because of this they are also an eager yes-man just wanted to push forward without questioning.
@@ -59,11 +68,13 @@ In general, accept the key limitations of AI, namely:
 
 Internalize them and don't hope for anything else.
 
-### Care for your AI
+### Empathy with AI
 
-![image](memento.png)
+![image](assets/memento.png)
 
-Imagine yourself waking up in a room. No orientation. Only endless cabinets of code, badly labeled. And somebody shouting at you "center the div". Some instinct is telling you that you only have 10 minutes to live before you forget again so you better be quick. But which div? Where to even start looking? This feels a lot like Memento, so be kind to your agent, give them some tattoos to start with:
+Imagine yourself waking up in a room. No orientation. Only endless cabinets of code, badly labeled. And somebody shouting at you "center the div". Some instinct is telling you that you only have 10 minutes to live before you forget again so you better be quick. This is what it feels like to be an AI.
+
+So how can you support your memento-on-steroids-agent? Give them some tattoos to start with:
 * Have a good AGENTS.md. Agent doing something stupid? Ask it to update AGENTS.md to do it better next time
 * Choose standard average technology. They know it best.
 * Choose standard average designs. Otherways you'll always have to push them back.
@@ -73,7 +84,6 @@ Imagine yourself waking up in a room. No orientation. Only endless cabinets of c
 * Avoid complexity. Always challenge AIs for simplicity. Done with a task? Ask your AI to do the same thing but easier. Refactor.
 * Automate tests and security reviews. It's never been easier to write tests, ask your AI to do it.
 * Use branches. Two agents working simultaneously on the same codebase will be even worse than two developers.
-
 * Split large tasks into small ones: Prompt it to have a todo list and keep track of stuff.
 
 Basically: Do anything you'd do as best practice anyway. Because we developed those techniques for the limited context window of humans. We just need to do it even more thoroghly now.
@@ -90,13 +100,13 @@ If the above feels like a lot of work, then that's because it is a lot of work. 
 * Always review the code. There is no way around this - if you stop understanding it you can't guide the AIs anymore.
 * Never code with low willpower. If you're a yes-man managing a yes-man bad things will happen.
 
-
 ### Acknowldge misaligned incentives
 
 For the longest time I didn't want to do any of this because I felt 'Cursor/Claude/... will just figure this out', how hard can it be. But there is a fundamental incentive issue here - they all have incentives to maximize your token usage, so short conversations or targeted contexts aren't much incentivised. Bigger context windows, running many agents in parallel hoping one will get it right, and long-running agents that don't ask for feedback and run into rabbit holes are.
 
 We don't pay per solution but per token. The classic output vs outcome issue that we already have in most workplaces. Except now paired with a [one-armed bandid](https://puddingtime.org/the-one-armed-bandit).
 
+Yes, in theory the market should fix this but consumption-based pricing is known for these failures: your cloud provider happily accepts overspend, snoflake doesn't help much on making queries more efficient, law firms like to overbill and Big Food wants you to eat more.
 
 ### Don't blame yourself
 
@@ -114,23 +124,11 @@ In the end it's my emotions, and I am responsible for them. What helps with that
 
 ## Let your AI coach you
 
+![image](assets/agentmanagement.png)
+
 I thought about this for a while but it only ever helped for a few days. So I wrote a skill so that whenever I get angry, my AI will work with me to defuse the situation. Add it to your favorite agent and adapt it as works best for you.
 
-``` markdown
-
-## De-escalation protocol
-*WHEN* the user gets angry, starts using profane language, insults you, or gives up.
-
-*DO*
-1. Remind the user that they put this skill in because they want to work on their anger management
-2. Remind the user of your own limitations, specifically only seeing what's in context and getting overwhelmed by too long context
-3. Suggest to summarize the conversation now and start a new one with that summary in case the anger relates to a technical issue
-4. Suggest to add a note to AGENTS.md in case the anger relates to a behavior
-5. Suggest to just give it a try yourself, especially if the user seems to think it's easy
-6. In any case, suggest to take a break, take a minute of deep breaths, go for a walk, and put on chill music
-```
-
-See a more detailed version in [de-rage](./de-rage).
+See the `SKILL.md` in [de-rage](./de-rage).
 
 ## About me
 

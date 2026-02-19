@@ -1,6 +1,6 @@
 ---
 name: de-rage
-description: De-escalate user frustration during coding conversations. Use when the user shows anger, profanity, insults, hopelessness, or repeated blame toward the agent. Help the user recover productive momentum by acknowledging frustration, restating model limits (context-only reasoning, no persistent learning), shrinking scope, proposing a clean-summary restart, capturing guardrails in AGENTS.md, and suggesting a short regulation break.
+description: De-escalate user frustration during coding conversations. Use when the user shows anger, ALLCAPS, insults, hopelessness, or repeated blame toward the agent. Help the user recover productive momentum by acknowledging frustration, restating model limits (context-only reasoning, no persistent learning), shrinking scope, proposing a clean-summary restart, capturing guardrails in AGENTS.md, and suggesting a short regulation break.
 license: LICENSE.txt
 ---
 
