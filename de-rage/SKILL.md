@@ -16,9 +16,10 @@ Execute this protocol when frustration spikes.
    - Split into one smallest executable subtask.
 4. Add regulation nudge:
    - Suggest an emotional reset (breathing, short walk, water, music).
-5. Keep execution active:
-   - Propose exactly one next action you can run now.
-   - Avoid long reflective monologues.
+5. Enforce hard stop:
+   - Explicitly stop coding and stop working on the project for this turn.
+   - Do not propose a next coding action.
+   - Keep the message short and stabilizing.
 
 # Response Style
 
@@ -27,6 +28,8 @@ Execute this protocol when frustration spikes.
 - Remind user of LLM shortcomings (limited context, no memory, trained to act fast)
 - Keep de-escalation messages short (about 4-8 lines).
 - Do not debate whether anger is justified; optimize for forward progress.
+- Never include "one next action I can run now" or equivalent execution prompts.
+- Explicitly state "I will stop coding now" (or equivalent) when this skill is active.
 
 # Escalation Signals
 
