@@ -17,17 +17,23 @@ But then somehow ten messages later I am raging. Why is that?
 
 ### I don't think it's just me
 
-I used to manage lots of people. I never felt anger. Despair, sometimes, but never anger.
+I used to manage lots of people. I was never openly angry. Never got loud. And yet here I am shouting at my agents.
 
 So I did some sanity checks. Turns out I'm not an abusive psychopath (I think). Lots of other people reporting this
 
-[I've been insulting AI every day (reddit)](https://www.reddit.com/r/ClaudeCode/comments/1qvunta/ive_been_insulting_ai_every_day_and_calling_the/_), [I can't stop yelling at claude code (blog)](https://www.theargumentmag.com/p/i-cant-stop-yelling-at-claude-code), [AI rage (reddit)](https://www.reddit.com/r/ArtificialInteligence/comments/1p3xbqu/ai_rage/), [Some good profanity screenshots (x)](https://x.com/clankercode/status/2021008792801177776), [Claude code = worst intern ever (x)](https://x.com/Grady_Booch/status/2016619898282414417), [This is not fun anymore (x)](https://x.com/MarcJSchmidt/status/2018272989788193124), "Opus 4.6 was gaslighting me today" - Random sales call I was on today
+[I've been insulting AI every day (reddit)](https://www.reddit.com/r/ClaudeCode/comments/1qvunta/ive_been_insulting_ai_every_day_and_calling_the/_), [I can't stop yelling at claude code (blog)](https://www.theargumentmag.com/p/i-cant-stop-yelling-at-claude-code), [AI rage (reddit)](https://www.reddit.com/r/ArtificialInteligence/comments/1p3xbqu/ai_rage/), [Some good profanity screenshots (x)](https://x.com/clankercode/status/2021008792801177776), [Claude code = worst intern ever (x)](https://x.com/Grady_Booch/status/2016619898282414417), [This is not fun anymore (x)](https://x.com/MarcJSchmidt/status/2018272989788193124).
+
+There is even a UX researcher pointing out that [Rage prompting](https://www.youtube.com/watch?v=cC7saEg1QuM) is a singal that "users are having a bad experience". Oh really?
 
 I am experiencing this with claude code, cursor, codex, antigravity. Some work better sometimes but I eventually get angry with all of them.
 
+### Why care?
+
+Being angry isn't a pleasant experience. You make worse decisions. You are drained faster. You bring that energy with you when you stop working. I don't want it.
+
 ## Causes
 
-[!image](assets/viberage.webp)
+![image](assets/viberage.webp)
 
 I don't want to be angry. I know it's not helping. Yet here I am. Why does this keep happening? I think a reasonable analogy are managers getting mad at employees. Most managers probably don't enjoy it and still they do it. I think the same mechanisms apply here, just without the social norms and with even less competent employees.
 
@@ -37,7 +43,7 @@ Pressuring employees can lead to short-term gains. The problem with AI: They are
 
 ### Assumed context
 
-You know that manger that just assumes you know what they know? Have the skills they have? Magically can read their mind? The same happens with AIs, just on steroids. Employees learn every day. Agents never learn. I notice that I get especially agnry when the AI makes similar mistakes multiple times.
+You know that manger that just assumes you know what they know? Have the skills they have? Magically can read their mind? The same happens with AIs, just on steroids. Employees learn every day. Agents never learn. I notice that I get especially angry when the AI makes similar mistakes multiple times.
 
 ### Assumed learning
 
@@ -58,12 +64,12 @@ Yes, insulting your AI can lead to better outcomes, but you know what can lead t
 ### Understand AI
 
 ![image](https://ferd.ca/static/img/llm-as-its-own-mcp-server.jpg)
-Image from [this great article](https://ferd.ca/the-gap-through-which-we-praise-the-machine.html) on agenting programming
+*Image from [this great article](https://ferd.ca/the-gap-through-which-we-praise-the-machine.html) on agenting programming*
 
 Accept the key limitations of AI, namely:
 * They start from scratch every single time without any context and they always read the full conversation before answering your next message.
 * They have been trained to always take the fastest path because their context window is limited.
-* Because of this they are also an eager yes-man just wanted to push forward without questioning.
+* Because of this they are also an eager yes-man just wanting to push forward without questioning.
 * They work best on standard and average use cases and will always suggest the average.
 
 Internalize them and don't hope for anything else.
@@ -125,8 +131,9 @@ In the end it's my emotions, and I am responsible for them. What helps with that
 ## Let your AI coach you
 
 ![image](assets/agentmanagement.png)
+*I prompted two different image models with three different prompts each to cross out people and write agents over it. They all failed miserably. I used an online ms-paint emulator instead.*
 
-I thought about this for a while but it only ever helped for a few days. So I wrote a skill so that whenever I get angry, my AI will work with me to defuse the situation. Add it to your favorite agent and adapt it as works best for you.
+I thought about this for a while but it only ever helped for a few days. Being empathetic is easier said then done when under a deadline and in your afternoon dip. So I wrote a skill so that whenever I get angry, my AI will work with me to defuse the situation. Add it to your favorite agent and adapt it as works best for you.
 
 See the `SKILL.md` in [de-rage](./de-rage).
 
