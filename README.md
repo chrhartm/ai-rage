@@ -138,6 +138,8 @@ I thought about this for a while but it only ever helped for a few days. Being e
 See the `SKILL.md` in [de-rage](./de-rage).
 
 ## About me
+![image](gamma-christoph.png)
+*This image was auto-generated when I used [gamma](gamma.app) to generate slides from this README for a talk. So it did what all AIs do: Without thinking just create something, and make it the most average outcome given the context. This is the stereotypical picture of somebody writing about AI rage. I look nothing like this guy.*
 
 * This is based on a [talk](https://docs.google.com/presentation/d/188J8BBXxkYHY-aXrGNuHtZrEy-qhyjjMaRodwiNpOrw/edit?usp=sharing) I gave at a Cursor Meetup in Amsterdam Feb 2026.
 * I work with AI to develop [DoneThat](https://donethat.ai) - an AI that automatically tracks your work. It can also proactively intervene, for example to tell you to take a break when it sees you arguing wiht your AI.
